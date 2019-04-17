@@ -1,0 +1,29 @@
+{
+  "name": "cc-ui",
+  "version": "1.0.0",
+  "description": "cc-ui by <zousy1@meicloud.com>",
+  "private": true,
+  "watch": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "element-ui": "^2.7.2",
+    "lodash": "^4.17.11"
+  }
+}

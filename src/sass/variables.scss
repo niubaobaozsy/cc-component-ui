@@ -1,0 +1,155 @@
+/**
+ * @file variable.scss
+ * @desc 变量
+ * @author 邹淑英 <zousy1@meicloud.com>
+ */
+// 本ui命名空间，所以类的前缀#6C7880
+$prefix:              '.coopc';//样式名
+//  主色
+$m: #499DF2;
+// 主色其他梯度颜色，1-11递深
+$m1: #D7EDFC;
+$m2: #C0DCFA;
+$m3: #A7CCF9;
+$m4: #8DBCF6;
+$m5: #6FACF4;
+$m6: #499DF2;
+$m7: #3880C6;
+$m8: #28639B;
+$m9: #194972;
+$m10: #0B2F4C;
+$m11: #011829;
+$m12: #6DB1F5 ;
+
+//其他颜色
+$white: white;
+$fontgery: #6C7880;
+$bordergery: #DFE3E6;
+$l4: #cecece;
+$a1:              #3a3a53;//主色 导航背景 标题文字 重要图标
+$a2:              #44445B;//主色辅色 导航选中
+$a3:              #34344a;//主色辅色 导航深色
+$a4:              #707079;//主色辅色 导航深色
+// 功能色
+//  蓝色
+$b: #499DF2;
+// 蓝色其他梯度颜色，1-11递深 
+$b1: #D7EDFC;
+$b2: #C0DCFA;
+$b3: #A7CCF9;
+$b4: #8DBCF6;
+$b5: #6FACF4;
+$b6: #499DF2;
+$b7: #3880C6;
+$b8: #28639B;
+$b9: #194972;
+$b10: #0B2F4C;
+$b11: #011829;
+//  红色
+$r: #F25555;
+// 红色其他梯度颜色，1-11递深 
+$r1: #FCE1E1;
+$r2: #FAC3C3;
+$r3: #FAA7A7;
+$r4: #F78D8D;
+$r5: #F57171;
+$r6: #F25555;
+$r7: #C93A3A;
+$r8:  #A12525;
+$r9: #7A1515;
+$r10: #520A0A;
+$r11: #290202;
+//  橙色
+$o: #FF9933;
+// 橙色其他梯度颜色，1-11递深 
+$o1: #FFEEDE;
+$o2: #FFDDBA;
+$o3:  #FFCC99;
+$o4:  #FFBB78;
+$o5: #FFAA54;
+$o6: #FF9933;
+$o7: #D47C24;
+$o8: #AB6116;
+$o9:  #80460D;
+$o10: #542D06;
+$o11: #2B1601;
+//  绿色
+$g: #1DBF6E;
+// 绿色其他梯度颜色，1-11递深 
+$g1: #D3F5E4;
+$g2: #A9EBCA;
+$g3: #80E0B0;
+$g4: #5BD497;
+$g5: #3AC982;
+$g6:  #1DBF6E;
+$g7:  #13A15A;
+$g8:  #13A15A;
+$g9:  #076134;
+$g10: #034021;
+$g11:  #012111;
+$e1:                   #8f8e97;//普通图标
+$f1:                   #d1d1d1;//失效按钮 失效图标
+
+$l1:                   #d1d1d1;//按钮边线
+$l2:                   #d8d8d8;//强分割线 页签边线 浮层边线
+$l3:                   #e8e8e8;//弱分割线 表格分割线
+$l4:                   #cecece;//表格元素边框
+$l5:                   #666666;//表格label文字
+$l6:                   #999999;//表格label文字
+
+$bg1:                  #f2f2f2;//深层次背景 表头背景
+$bg2:                  #fafafa;//浅层次背景 表格间隔背景
+$bg3:                  #f6fbff;//选中表格背景
+//bottom
+$btn-h:                 32px;
+$btn-s-h:               28px;
+$btn-pad:                20px;
+$btn-s-pad:             0 16px;
+// 线段长度
+
+// 字体
+$fontFamily:           'Microsoft YaHei';
+$baseFontSize:          14px;
+$fontSizeSmall:         12px;
+
+//radio
+$radio-w:             16px;
+$radio-h:             16px;
+$radio-in-w:            6px;
+$radio-in-h:            6px;
+
+//checkBox
+$checkbox-w:            16px;
+$checkbox-h:            16px;
+$checkbox-bor-col:      $m;
+
+//checkBox
+$check-label-h:                 32px;
+$check-label-pad:                18px 10px;
+
+//switch
+$switch-w:              48px;
+$switch-h:              24px;
+$switch-in-w:           20px;
+$switch-in-h:           20px;
+$switch-bor-radius:     22px;
+
+$switch-square-w:              48px;
+$switch-square-h:              22px;
+$switch-square-in-w:           16px;
+$switch-square-in-h:           16px;
+$switch-square-bor-radius:     2px;
+
+//input
+$input-h: 32px;
+$input-w: 240px;
+$input-s-h: 28px;
+$input-s-w: 160px;
+$input-bor-radius: 2px;
+
+//modal
+$modal-h: 60px;
+$modal-m: 720px;
+$modal-s: 480px;
+$modal-b: 960px;
+$modal-bor-radius: 4px;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>弹窗-关闭</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.8%" y="-7.4%" width="105.6%" height="114.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.262745098   0 0 0 0 0.301960784   0 0 0 0 0.329411765  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="规范" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="规范3" transform="translate(-1304.000000, -3112.000000)" fill="#B0B9BF">
+            <g id="Group-2-Copy" filter="url(#filter-1)" transform="translate(620.000000, 3090.000000)">
+                <g id="Group-7" transform="translate(684.000000, 22.000000)">
+                    <path d="M10.1680217,7.71891892 L15.804878,2.05405405 C16.0650407,1.79459459 16.0650407,1.40540541 15.804878,1.14594595 L14.9376694,0.237837838 C14.6775068,-0.0216216216 14.2872629,-0.0216216216 14.0271003,0.237837838 L8.34688347,5.9027027 C8.17344173,6.07567568 7.91327913,6.07567568 7.7398374,5.9027027 L2.0596206,0.194594595 C1.79945799,-0.0648648649 1.40921409,-0.0648648649 1.14905149,0.194594595 L0.238482385,1.1027027 C-0.0216802168,1.36216216 -0.0216802168,1.75135135 0.238482385,2.01081081 L5.91869919,7.67567568 C6.09214092,7.84864865 6.09214092,8.10810811 5.91869919,8.28108108 L0.195121951,13.9891892 C-0.0650406504,14.2486486 -0.0650406504,14.6378378 0.195121951,14.8972973 L1.10569106,15.8054054 C1.36585366,16.0648649 1.75609756,16.0648649 2.01626016,15.8054054 L7.69647696,10.1405405 C7.8699187,9.96756757 8.1300813,9.96756757 8.30352304,10.1405405 L13.9837398,15.8054054 C14.2439024,16.0648649 14.6341463,16.0648649 14.8943089,15.8054054 L15.804878,14.8972973 C16.0650407,14.6378378 16.0650407,14.2486486 15.804878,13.9891892 L10.1680217,8.32432432 C9.99457995,8.15135135 9.99457995,7.89189189 10.1680217,7.71891892" id="弹窗-关闭"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

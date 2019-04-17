@@ -1,0 +1,362 @@
+<!-- 
+  @file index.html
+  @desc ui规范文档
+  @author 邹淑英 <zousy1@meicloud.com>
+ -->
+<!doctype html>
+<html>
+  <head>
+    <title>起步</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <body class="coopc" >
+    <div style="margin: 50px">
+      <h2>按钮</h2>
+      <div>
+        <p>默认尺寸</p>
+        <div>
+          <button class="btn">默认按钮</button>
+          <button class="btn-x1">线性按钮</button>
+          <button class="btn-x2">线性按钮</button>
+          <button class="btn-x3">线性按钮</button>
+          <button class="btn-x4">虚线按钮</button>
+        </div>
+        <div style="padding: 20px 0">
+          <button class="btn disabled">按钮禁用</button>
+          <button class="btn-x1 disabled">按钮禁用</button>
+          <button class="btn-x2 disabled">按钮禁用</button>
+          <button class="btn-x3 disabled">按钮禁用</button>
+          <button class="btn-x4 disabled">按钮禁用</button>
+        </div>
+      </div>
+      <div>
+          <p>小尺寸</p>
+          <button class="btn btn-s">默认按钮</button>
+          <button class="btn-x1 btn-s">线性按钮</button>
+          <button class="btn-x2 btn-s">线性按钮</button>
+          <button class="btn-x3 btn-s">线性按钮</button>
+          <button class="btn-x4 btn-s">线性按钮</button>
+      </div>
+      <br>
+      <h2>选择组件</h2>
+      <h3>单选</h3>
+      <div>
+          <div class="radio-box">
+              <span></span>单选框
+          </div>
+          <div class="radio-box active">
+              <span></span>选中按钮
+          </div>
+          <div class="radio-box  disabled">
+              <span></span>不可选
+          </div>
+          <div class="radio-box  uneditable">
+              <span></span>不可修改
+          </div>
+      </div>
+      <div class="radio-level-group">
+        <p>横向排列</p>
+        <div class="radio-box">
+            <span></span>单选框
+        </div>
+        <div class="radio-box active">
+            <span></span>选中按钮
+        </div>
+        <div class="radio-box  disabled">
+            <span></span>不可选
+        </div>
+        <div class="radio-box  uneditable">
+            <span></span>不可修改
+        </div>
+      </div>
+      <div class="radio-vertical-group">
+        <p>竖向排列</p>
+        <div class="radio-box">
+            <span></span>单选框
+        </div>
+        <div class="radio-box active">
+            <span></span>选中按钮
+        </div>
+        <div class="radio-box  disabled">
+            <span></span>不可选
+        </div>
+        <div class="radio-box  uneditable">
+            <span></span>不可修改
+        </div>
+      </div>
+      <br>
+      <h3>多选</h3>
+      <div>
+        <div class="check-box">
+            <span></span>多选框
+        </div>
+        <div class="check-box active">
+            <span></span>多选框
+        </div>
+        <div class="check-box disabled">
+            <span></span>多选框
+        </div>
+        <div class="check-box done">
+            <span></span>多选框
+        </div>
+        <div class="check-box done active">
+            <span></span>多选框
+        </div>
+      </div>
+      <h3>标签选项</h3>
+      <!--  -->
+      <div>
+        <div class="check-label">
+          <span>选项内容</span>
+        </div>
+        <h5>选中标签选项</h5>
+        <div class="check-label active">
+          <span>选项内容</span>
+        </div>
+        <h5>不可选</h5>
+        <div class="check-label disabled">
+          <span>选项内容</span>
+        </div>
+        <h5>不可修改</h5>
+        <div class="check-label done">
+          <span>选项内容</span>
+        </div>
+      </div>
+      <h2>启用/禁用</h2>
+      <div>
+        <h5>(默认)-(禁止点击--默认不开启)-( 禁止点击--默认开启)</h5>
+        <div class="switch">
+            <span></span>
+        </div>
+        <div class="switch disabled"><span></span></div>
+        <div class="switch checked-disabled"><span></span></div>
+        <br>
+        <div class="switch square"><span></span></div>
+        <div class="switch square disabled"><span></span></div>
+        <div class="switch square checked-disabled"><span></span></div>
+      </div>
+      <h2>分页</h2>
+      <h5>基础用法</h5>
+      <div class="page-bar">
+        <div class="page-data">360条数据，共12页</div>
+        <div class="page-each">
+          <span class="number">20条/页</span>
+        </div>
+        <div class="page-pagination">
+          <a class="page-btn">&lt;</a>
+          <a class="page-number ">1</a>
+          <a class="page-number">···</a>
+          <a class="page-number">10</a>
+          <a class="page-number">11</a>
+          <a class="page-number on">12</a>
+          <a class="page-number">···</a>
+          <a class="page-number">30</a>
+          <a class="page-btn">&gt;</a>
+        </div>
+        <div class="page-goto">
+          <span class="number">前往</span>
+          <input type="text" class="page-inp" value="1">
+          <span>页</span>
+        </div>
+      </div>
+      <h5>小尺寸</h5>
+      <div class="page-s-pagination">
+        <a class="page-btn">&lt;</a>
+        <a class="page-number ">1</a>
+        <a class="page-number">···</a>
+        <a class="page-number">6</a>
+        <a class="page-number  on">7</a>
+        <a class="page-number">12</a>
+        <a class="page-number">···</a>
+        <a class="page-number">12</a>
+        <a class="page-btn">&gt;</a>
+      </div>
+      <div class="page-s-pagination" style="margin-top:15px">
+        <a class="page-btn page-disabled">&lt;</a>
+        <a class="page-number   on">1</a>
+        <a class="page-number">2</a>
+        <a class="page-number">3</a>
+        <a class="page-number">4</a>
+        <a class="page-number">5</a>
+        <a class="page-number">6</a>
+        <a class="page-btn">&gt;</a>
+      </div>
+      <h2>输入框</h2>
+      <div>
+        <input type="text" placeholder="请输入内容">
+        <input type="text" class="disabled" placeholder="请输入内容(不可修改)">
+        <input type="text" class="done" placeholder="请输入内容(禁用)">
+        <h5>block的input</h5>
+        <input type="text" class="done block" placeholder="请输入内容(禁用)">
+        <input type="text" class="done block" placeholder="请输入内容(禁用)">
+        <h5>带icon的input</h5>
+        <input type="text" class="icon-right" placeholder="请输入内容"><br>
+        <input type="text" class="icon-left" placeholder="请输入内容">
+
+        <h5>提示悬浮信息</h5>
+        <div class="msg-input">
+            <input type="text" placeholder="请输入内容">
+            <span class="msg-icon">
+            </span>
+            <div class="msg-label">
+              <div class="msg-arow"></div>
+              <div class="msg-inner"><div class="msg-msg">这里是提示信息</div></div>
+            </div>
+        </div>
+        <h5>错误input</h5>
+        <div class="error-input">
+            <input type="text" class="error" placeholder="请输入内容">
+            <div class="error-label">
+              <span class="error-msg">
+              </span>错误提示
+            </div>
+        </div>
+        <h5>带输入建议框</h5>
+        <div class="error-input">
+            <input type="text" class="error" placeholder="请输入内容">
+            <div class="error-label">
+              <span class="error-msg">
+              </span>建议
+            </div>
+        </div>
+        <h5>文本输入框</h5>
+        <div class="textarea-g" id="ta1" data-mc="textarea">
+          <textarea name="" class="tg-textarea" cols="100" rows="5" placeholder="请输入内容" data-max="50"></textarea>
+        </div>
+      <h2>文件上传&下载</h2>
+      <div>
+        <h5>表格上传</h5>
+        <div class="upload">  
+          <button class="btn-x4"><span>上传文件</span></button>
+          <div class="upload-label">
+            <span>文件名...</span>
+          </div>
+          <div class="upload-schedule"></div>
+        </div>
+      </div>
+      <div>
+        <h5>表单上传</h5>
+        <div class="upload">  
+          <button class="btn-x4 form"><span>上传文件</span></button>
+          <div class="form">
+            <div class="upload-label form"><span>文件名.后缀</span></div>
+            <div class="upload-schedule form"></div>
+          </div>
+        </div>
+        <h5>文件下载</h5>
+        <div class="upload">  
+            <div class="upload-label download"><span>文件名文件名文件名.word</span></div>
+            <div class="upload-schedule download"></div>
+        </div>
+      </div>
+<!-- 下拉选择 -->
+      <div>
+        <h2>下拉选择</h2>
+        <h5>类on为选中选项 open类为打开状态的input</h5>
+        <div class="select">
+          <input type="text" placeholder="请选择">
+          <span class="selecticon open"><svg viewBox="64 64 896 896" fill="currentColor" width="1em" height="1em" class="ng-tns-c6-165" data-icon="down" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></span>
+          <div class="select-body">
+            <div class="select-item">选项一</div>
+            <div class="select-item on">选项二</div>
+            <div class="select-item on disabled">选项二(不可修改)</div>
+            <div class="select-item">选项三</div>
+            <div class="select-item done">选项三(禁用)</div>
+          </div>
+        </div>
+        <h5>小尺寸</h5>
+        <div class="select">
+            <input type="text" placeholder="请选择" class="select-s">
+            <span class="selecticon open"><svg viewBox="64 64 896 896" fill="currentColor" width="1em" height="1em" class="ng-tns-c6-165" data-icon="down" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></span>
+            <div class="select-body select-s">
+              <div class="select-item">选项一</div>
+              <div class="select-item on">选项二</div>
+              <div class="select-item on disabled">选项二(不可修改)</div>
+              <div class="select-item">选项三</div>
+              <div class="select-item done">选项三(禁用)</div>
+            </div>
+          </div>
+        <h5>不可修改</h5>
+        <div class="select">
+            <input type="text" placeholder="请选择" class="disabled">
+            <span class="selecticon"><svg viewBox="64 64 896 896" fill="currentColor" width="1em" height="1em" class="ng-tns-c6-165" data-icon="down" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></span>
+          </div>
+      </div>
+      <!-- 弹窗 -->
+      <h2>弹窗</h2>
+      <h5>小尺寸480</h5>
+      <div class="modal modal-s"> 
+          <div class="modal-header">
+            <span class="modal-title">弹窗title</span>
+            <button class="modal-close btn">
+              <span><svg t="1555470174718" 
+                class="icon" style="" viewBox="0 0 1024 1024"
+                 version="1.1" xmlns="http://www.w3.org/2000/svg" 
+                 p-id="2105"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                   width="32" height="32">
+                   <defs><style type="text/css">
+                   </style></defs><path d="M560.264533 512L512 463.735467l248.9344-248.9344 48.264533 48.264533L560.264533 512l248.9344 248.9344-48.264533 48.264533L512 560.264533l-248.9344 248.9344-48.264533-48.264533L463.735467 512 512 560.264533l-248.9344 248.9344-48.264533-48.264533L463.735467 512 214.801067 263.0656l48.264533-48.264533L512 463.735467l248.9344-248.9344 48.264533 48.264533z" p-id="2106" fill="#B0B9BF"></path></svg></span>
+            </button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-do">
+      
+            <button class="btn-x1">取消</button>
+            <button class="btn">确定</button>
+          </div>
+        </div>
+      <h5>小尺寸720</h5>
+      <div class="modal modal-md"> 
+          <div class="modal-header">
+            <span class="modal-title">弹窗title</span>
+            <button class="modal-close btn">
+              <span><svg t="1555470174718" 
+                class="icon" style="" viewBox="0 0 1024 1024"
+                 version="1.1" xmlns="http://www.w3.org/2000/svg" 
+                 p-id="2105"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                   width="32" height="32">
+                   <defs><style type="text/css">
+                   </style></defs><path d="M560.264533 512L512 463.735467l248.9344-248.9344 48.264533 48.264533L560.264533 512l248.9344 248.9344-48.264533 48.264533L512 560.264533l-248.9344 248.9344-48.264533-48.264533L463.735467 512 512 560.264533l-248.9344 248.9344-48.264533-48.264533L463.735467 512 214.801067 263.0656l48.264533-48.264533L512 463.735467l248.9344-248.9344 48.264533 48.264533z" p-id="2106" fill="#B0B9BF"></path></svg></span>
+            </button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-do">
+      
+            <button class="btn-x1">取消</button>
+            <button class="btn">确定</button>
+          </div>
+        </div>
+      <h5>小尺寸960</h5>
+      <div class="modal modal-b"> 
+        <div class="modal-header">
+          <span class="modal-title">弹窗title</span>
+          <button class="modal-close btn">
+            <span><svg t="1555470174718" 
+              class="icon" style="" viewBox="0 0 1024 1024"
+               version="1.1" xmlns="http://www.w3.org/2000/svg" 
+               p-id="2105"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                 width="32" height="32">
+                 <defs><style type="text/css">
+                 </style></defs><path d="M560.264533 512L512 463.735467l248.9344-248.9344 48.264533 48.264533L560.264533 512l248.9344 248.9344-48.264533 48.264533L512 560.264533l-248.9344 248.9344-48.264533-48.264533L463.735467 512 512 560.264533l-248.9344 248.9344-48.264533-48.264533L463.735467 512 214.801067 263.0656l48.264533-48.264533L512 463.735467l248.9344-248.9344 48.264533 48.264533z" p-id="2106" fill="#B0B9BF"></path></svg></span>
+          </button>
+        </div>
+        <div class="modal-body">
+          弹窗内容
+        </div>
+        <div class="modal-do">
+          <button class="btn-x1">取消</button>
+          <button class="btn">确定</button>
+        </div>
+      </div>
+    </div>
+
+    
+    
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+  
+</html>

@@ -1,0 +1,37 @@
+/**
+ * @file mixins.scss
+ * @desc mixins
+ * @author 邹淑英 <zousy1@meicloud.com>
+ */
+@mixin cc-btn($height, $padding, $fontSize, $lineHeight,$borderWidth,$borderShpe) {
+  height: $height;
+  padding: 0 $padding;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  border-width: $borderWidth;
+  border-style: $borderShpe;
+  border-radius: 2px;
+  @include compatibly('box-sizing', border-box);//宽度就是包括padding和border使得更好的设置宽度
+  outline: none;//轮廓样式，不占用位置，当得到焦点或则悬浮时出现效果
+  cursor: pointer;//显示鼠标悬浮上的鼠标类型，显示为手
+}
+
+@mixin cc-btn-color($borderColor, $bgColor, $color) {
+  border-color: $borderColor;
+  background: $bgColor;
+  color: $color;
+}
+@mixin cc-btn-s {
+  height: $btn-s-h;
+  line-height: $btn-s-h;
+  padding: $btn-s-pad;
+  font-size: $fontSizeSmall;
+}
+@mixin compatibly($property,$val...){
+  -webkit-#{$property}:$val;
+  -moz-#{$property}:$val;
+  -ms-#{$property}:$val;
+  -o-#{$property}:$val;
+  #{$property}:$val;
+}
+
